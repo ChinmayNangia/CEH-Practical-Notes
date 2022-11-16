@@ -1,6 +1,6 @@
 Tools Used
 1) gni_setup.exe = scan the entire network from 10.10.10.1 to 10.10.10.25
-2) ipscan25.exe = same as gni_setup.exe
+2) ipscan25.exe = same as gni_setup.exe `10.10.10.1-25`
 3) Netbios Enumerator = enumerate everything like registry shares 
 4) nmap GUI = nmap -O IP
 5) nbstat -A IP list all the shares 
