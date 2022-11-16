@@ -10,9 +10,13 @@ Tools Used
 9) on kali
 	1) **nmap -sP 10.10.10.0/24** this will scan all the devices present on the given network
 	2) nmap -sS IP stealthy scan
-	3) msfconsole first snmp_login , snmp_enum 
+	3) nmap -sU  -p161  --script=snmp-brute IP
+	4) msfconsole -> use auxilliary/scanner/snmp/snmp_login after getting something 
+	5) use auxilliary/scanner/snmp/snmp_enum
 
 
-
+10) For Enumerating Active Directory
+	1)CEH-tools ->(E) Enumeration -> Active Directory Protocol -> LDAP Enum tools -> Active Directoty explorer 	
+	2)Expand DC=CEH -> CN-USErs -> CN=jason
 
 https://www.youtube.com/watch?v=HaTChgbnw5E&list=PLrrgFyE6PtlaCixUxJPM0Y9Peye6iCewH&index=3
