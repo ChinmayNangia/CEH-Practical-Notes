@@ -1,5 +1,5 @@
 1) **Hashcalc**
-	1) calculating the hash of a  particular file 
+	1) calculating the hash of a  particular file -> Data format ->  File  ->  upload the file then check the hash
 	2) either check the SHA1 Hash of a text enter the text in the field or upload the file 
 
 2) **MD5 calculator**
