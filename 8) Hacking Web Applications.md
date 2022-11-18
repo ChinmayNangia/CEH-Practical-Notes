@@ -4,6 +4,7 @@
 	1) Commands for WPSCAN
 		1) wpscan --url https://example/ --enumerate u (To enumerate the user) 
 		2) wpscan --url http://172.16.0.27:8080/CEH/ -u james -P /path/pass.txt
+		3) wpscan --url https://example/ --enumerate vp (To enumerate vuln plugins)
 
 	2) Commands for  metasploit 
 		1) use auxiliary/scanner/http/wordpress_login_enum
